@@ -5,6 +5,8 @@ pip>=9
 # data science
 numpy
 pandas
+matplotlib
+plotly
 
 #Geodata
 geopandas
@@ -16,4 +18,3 @@ streamlit
 
 # utilities
 six>=1.14
-
