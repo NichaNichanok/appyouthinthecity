@@ -1,0 +1,43 @@
+,fullname,column_name
+0,Migration in %,mig_rate
+1,Unemployment in %,unemployme
+2,Welfare beneficiaries in %,welfare
+3,Child poverty in %,child_pov
+4,Dynamic of unemployment in %,dyn_unempl
+5,Dynamic of welfare in %,dyc_welfare
+6,Dynamic of child poverty in %,dyn_child
+7,Rent in €/m2,ave_rent
+8,Social housing in %,social_hou
+9,The less-profit housing in %,public_hou
+10,Tranformation public to private appartment in %,rent_to_pr
+11,Dynamic of public/private transformation  in %,dyn_r_to_p
+12,Aparment sale in %,sales
+13,Dynamic of sales between 2015 and 2020,dyn_sales
+14,The people live in this area more than 5 years in %,five_y_pls
+15,Number of all public transports,public_tra
+16,Number of restaurants exc. fast food,eating
+17,"Number of museums, art centers, cinemas, theaters, etc.",culture
+18,"Number of ngos, social and community centers, etc.",community
+19,"Number of hospital, clinics, pharmacies, etc.",health_car
+20,"Number of fire station, police, post box, townhall, etc.",public_ser
+21,"Number of langague and music schools, edu institutions",education
+22,Number of schools,schools
+23,Number of universities ,universiti
+24,Number of kindergartens,kindergart
+25,"Number of picnic tables, benches, bbq, water points, etc.",outdoor_fa
+26,"Number of swimming pool, park, playground, etc.",outdoor_le
+27,"Number of bars, pubcs, nightclubs, etc.",night_life
+28,"Number of lake, rivers, etc.",water
+29,Building age older than 1940 in %,B_1940
+30,Building age between 1941-1991 in %,B_1941_199
+31,Building age between 1991-2001 in %,B_1991_201
+32,Green space in m2,vgpm20
+33,Number of other types of schools,other_sch
+34,Number of vocational school,vocat_sch
+35,Number of primary school,primary_sc
+36,Number of gymnasium,Gymnasium
+37,Number of other secondary school,secon_sch
+38,Number of private school,priv_schoo
+39,Number of school for children with special needs,sp_nee_sch
+40,Number of kindergartens ,kita
+41,"Number of rail / u-bahn / s-bahn, tram stations",stations
