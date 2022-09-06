@@ -1,0 +1,19 @@
+# packaging
+pip>=9
+
+
+# data science
+numpy
+pandas
+
+#Geodata
+geopandas
+pygeos
+
+
+# API
+streamlit
+
+# utilities
+six>=1.14
+
