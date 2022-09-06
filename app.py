@@ -67,7 +67,7 @@ st.write(f" Here is {option} in each Planningarea")
 
 @st.cache
 def get_plotly_data():
-    geojson_path = '../data/geodata_readytouse.geojson'
+    geojson_path = 'geodata_readytouse.geojson'
     df = pd.read_csv('labeled.csv', dtype={'': str})
     with open(geojson_path) as geofile:
         j_file = json.load(geofile)
