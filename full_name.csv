@@ -1,36 +1,36 @@
-,fullname,column_name,unit
-0,Population with migration background in %,mig_rate,%
-1,Unemployment in %,unemployme,%
-2,Welfare beneficiaries in %,welfare,%
-3,Child poverty in %,child_pov,%
-4,Dynamic of unemployment in % (2018 to 2020),dyn_unempl,%
-5,Dynamic of welfare in % (2018 to 2020),dyc_welfare,%
-6,Dynamic of child poverty in % (2018 to 2020),dyn_child,%
-7,Average advertised rent in €/m2,ave_rent,€/m2
-8,Social housing in %,social_hou,%
-9,Share of municipal housing companies in the housing stock in %,public_hou,%
-10,Conversion of multi-family houses into condos in %,rent_to_pr,%
-11,Dynamic of condo conversion in % (2015 to 2020),dyn_r_to_p,%
-12,Aparments sale in %,sales,%
-13,Dynamic of apartment sales in % (2015 to 2020),dyn_sales,%
-14,Share of inhabitants with at least 5 years of residence in %,five_y_pls,%
-15,"Amount of public transport stops within 500 m, incl. bus",public_tra,unit
-16,Amount of restaurants and cafés within 500 m (exc. fast food),eating,unit
-17,"Amount of cultural institutions within 500 m (museums, cinemas, theaters, etc.)",culture,unit
-18,Amount of extra-curriculum educational institutions within 500 m (music and language schools)',education,unit
-19,"Amount of urban furniture (picnic tables, benches, bbq, water points, etc.) within 500 m",outdoor_fa,unit
-20,"Amount of places for outdoor leisure (swimming pools, parks, playgrounds, etc.) within 500 m",outdoor_le,unit
-21,"Amount of bars, pubs, nightclubs, etc. within 500 m",night_life,unit
-22,Share of houses built before 1940 in % (as of 2015),B_1940,%
-23,Share of houses built between 1941 and 1991 in % (as of 2015),B_1941_199,%
-24,Share of houses built between 1991 and 2001 in % (as of 2015),B_1991_201,%
-25,Vegetation volume in m3/m2,vgpm20,m3/m2
-26,Amount of other types of schools,other_sch,unit
-27,Amount of vocational schools,vocat_sch,unit
-28,Amount of primary schools,primary_sc,unit
-29,Amount of Gymnasiums,Gymnasium,unit
-30,Amount of other secondary schools,secon_sch,unit
-31,Amount of private schools,priv_schoo,unit
-32,Amount of schools for children with special needs,sp_nee_sch,unit
-33,Amount of kindergartens,kita,unit
-34,Amount of rail / U-bahn / S-bahn and tram stations,stations,unit
+,fullname,column_name,unit,shortname
+0,Population with migration background in %,mig_rate,%,Migration
+1,Unemployment in %,unemployme,%,Unemployment
+2,Welfare beneficiaries in %,welfare,%,Welfare beneficiaries
+3,Child poverty in %,child_pov,%,ChildPoverty
+4,Dynamic of unemployment in % (2018 to 2020),dyn_unempl,%,UnemploymentDynamic
+5,Dynamic of welfare in % (2018 to 2020),dyc_welfare,%,WelfareBenefitsDynamic
+6,Dynamic of child poverty in % (2018 to 2020),dyn_child,%,ChildPovertyDynamic
+7,Average advertised rent in €/m2,ave_rent,€/m2,AverageRent
+8,Social housing in %,social_hou,%,SocialHousing
+9,Share of municipal housing companies in the housing stock in %,public_hou,%,PublicHousing
+10,Conversion of multi-family houses into condos in %,rent_to_pr,%,ConversionHousesToCondoDynamic
+11,Dynamic of condo conversion in % (2015 to 2020),dyn_r_to_p,%,ConversionHousesToCondoDyn
+12,Aparments sale in %,sales,%,ApartmentSale
+13,Dynamic of apartment sales in % (2015 to 2020),dyn_sales,%,ApartmentSaleDynamic
+14,Share of inhabitants with at least 5 years of residence in %,five_y_pls,%,5-yearsResidence
+15,"Amount of public transport stops within 500 m, incl. bus",public_tra,unit,PublicTransport
+16,Amount of restaurants and cafés within 500 m (exc. fast food),eating,unit,Eating
+17,"Amount of cultural institutions within 500 m (museums, cinemas, theaters, etc.)",culture,unit,Culture
+18,Amount of extra-curriculum educational institutions within 500 m (music and language schools)',education,unit,Education
+19,"Amount of urban furniture (picnic tables, benches, bbq, water points, etc.) within 500 m",outdoor_fa,unit,OutdoorFacility
+20,"Amount of places for outdoor leisure (swimming pools, parks, playgrounds, etc.) within 500 m",outdoor_le,unit,OutdoorLeisture
+21,"Amount of bars, pubs, nightclubs, etc. within 500 m",night_life,unit,NightLife
+22,Share of houses built before 1940 in % (as of 2015),B_1940,%,BuildungB1940
+23,Share of houses built between 1941 and 1991 in % (as of 2015),B_1941_199,%,Buildung1940to1991
+24,Share of houses built between 1991 and 2001 in % (as of 2015),B_1991_201,%,Buildung1991to2001
+25,Vegetation volume in m3/m2,vgpm20,m3/m2,GreenSpaces
+26,Amount of other types of schools,other_sch,unit,OtherSchool
+27,Amount of vocational schools,vocat_sch,unit,VocationalSchool
+28,Amount of primary schools,primary_sc,unit,PrimarySchool
+29,Amount of Gymnasiums,Gymnasium,unit,Gymnasium
+30,Amount of other secondary schools,secon_sch,unit,SecondarySchool
+31,Amount of private schools,priv_schoo,unit,PrivateSchool
+32,Amount of schools for children with special needs,sp_nee_sch,unit,SpecialNeedSchool
+33,Amount of kindergartens,kita,unit,Kindergarden
+34,Amount of rail / U-bahn / S-bahn and tram stations,stations,unit,PublicStation

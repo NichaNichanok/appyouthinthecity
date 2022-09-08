@@ -7,7 +7,7 @@ numpy
 pandas
 matplotlib
 plotly
-
+PIL
 #Geodata
 geopandas
 pygeos
