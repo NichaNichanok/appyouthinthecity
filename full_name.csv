@@ -1,36 +1,45 @@
 ,fullname,column_name,unit,shortname
-0,Population with migration background in %,mig_rate,%,Migration
-1,Unemployment in %,unemployme,%,Unemployment
-2,Welfare beneficiaries in %,welfare,%,Welfare beneficiaries
-3,Child poverty in %,child_pov,%,ChildPoverty
-4,Dynamic of unemployment in % (2018 to 2020),dyn_unempl,%,UnemploymentDynamic
-5,Dynamic of welfare in % (2018 to 2020),dyc_welfare,%,WelfareBenefitsDynamic
-6,Dynamic of child poverty in % (2018 to 2020),dyn_child,%,ChildPovertyDynamic
-7,Average advertised rent in €/m2,ave_rent,€/m2,AverageRent
-8,Social housing in %,social_hou,%,SocialHousing
-9,Share of municipal housing companies in the housing stock in %,public_hou,%,PublicHousing
-10,Conversion of multi-family houses into condos in %,rent_to_pr,%,ConversionHousesToCondoDynamic
-11,Dynamic of condo conversion in % (2015 to 2020),dyn_r_to_p,%,ConversionHousesToCondoDyn
-12,Aparments sale in %,sales,%,ApartmentSale
-13,Dynamic of apartment sales in % (2015 to 2020),dyn_sales,%,ApartmentSaleDynamic
-14,Share of inhabitants with at least 5 years of residence in %,five_y_pls,%,5-yearsResidence
-15,"Amount of public transport stops within 500 m, incl. bus",public_tra,unit,PublicTransport
-16,Amount of restaurants and cafés within 500 m (exc. fast food),eating,unit,Eating
-17,"Amount of cultural institutions within 500 m (museums, cinemas, theaters, etc.)",culture,unit,Culture
-18,Amount of extra-curriculum educational institutions within 500 m (music and language schools)',education,unit,Education
-19,"Amount of urban furniture (picnic tables, benches, bbq, water points, etc.) within 500 m",outdoor_fa,unit,OutdoorFacility
-20,"Amount of places for outdoor leisure (swimming pools, parks, playgrounds, etc.) within 500 m",outdoor_le,unit,OutdoorLeisture
-21,"Amount of bars, pubs, nightclubs, etc. within 500 m",night_life,unit,NightLife
-22,Share of houses built before 1940 in % (as of 2015),B_1940,%,BuildungB1940
-23,Share of houses built between 1941 and 1991 in % (as of 2015),B_1941_199,%,Buildung1940to1991
-24,Share of houses built between 1991 and 2001 in % (as of 2015),B_1991_201,%,Buildung1991to2001
-25,Vegetation volume in m3/m2,vgpm20,m3/m2,GreenSpaces
-26,Amount of other types of schools,other_sch,unit,OtherSchool
-27,Amount of vocational schools,vocat_sch,unit,VocationalSchool
-28,Amount of primary schools,primary_sc,unit,PrimarySchool
-29,Amount of Gymnasiums,Gymnasium,unit,Gymnasium
-30,Amount of other secondary schools,secon_sch,unit,SecondarySchool
-31,Amount of private schools,priv_schoo,unit,PrivateSchool
-32,Amount of schools for children with special needs,sp_nee_sch,unit,SpecialNeedSchool
-33,Amount of kindergartens,kita,unit,Kindergarden
-34,Amount of rail / U-bahn / S-bahn and tram stations,stations,unit,PublicStation
+0,Population with migration background in % per planning area,mig_rate,%,Migration
+1,Unemployment in % per planning area,unemployme,%,Unemployment
+2,Welfare beneficiaries in % per planning area,welfare,%,Welfare beneficiaries
+3,Child poverty in % per planning area,child_pov,%,ChildPoverty
+4,Dynamic of unemployment in % (2018 to 2020) per planning area,dyn_unempl,%,UnemploymentDynamic
+5,Dynamic of welfare in % (2018 to 2020) per planning area,dyc_welfare,%,WelfareBenefitsDynamic
+6,Dynamic of child poverty in % (2018 to 2020) per planning area,dyn_child,%,ChildPovertyDynamic
+7,Average advertised rent in €/m2 per planning area,ave_rent,€/m2,AverageRent
+8,Social housing in % per planning area,social_hou,%,SocialHousing
+9,Share of municipal housing companies in the housing stock in % per planning area,public_hou,%,PublicHousing
+10,Conversion of multi-family houses into condos in % per planning area,rent_to_pr,%,ConversionHousesToCondo
+11,Dynamic of condo conversion in % (2015 to 2020) per planning area,dyn_r_to_p,%,ConversionHousesToCondoDynamic
+12,Aparments sale in % per planning area,sales,%,ApartmentSale
+13,Dynamic of apartment sales in % (2015 to 2020) per planning area,dyn_sales,%,ApartmentSaleDynamic
+14,Share of inhabitants with at least 5 years of residence in % per planning area,five_y_pls,%,5-yearsResidence
+15,"Amount of public transport stops within 500 m, incl. bus per planning area",public_tra,unit,PublicTransport
+16,Amount of restaurants and cafés within 500 m (exc. fast food) per planning area,eating,unit,Eating
+17,"Amount of cultural institutions within 500 m (museums, cinemas, theaters, etc.) per planning area",culture,unit,Culture
+18,Amount of extra-curriculum educational institutions within 500 m (music and language schools)' per planning area,education,unit,Education
+19,"Amount of urban furniture (picnic tables, benches, bbq, water points, etc.) within 500 m per planning area",outdoor_fa,unit,OutdoorFacility
+20,"Amount of places for outdoor leisure (swimming pools, parks, playgrounds, etc.) within 500 m per planning area",outdoor_le,unit,OutdoorLeisture
+21,"Amount of bars, pubs, nightclubs, etc. within 500 m per planning area",night_life,unit,NightLife
+22,Share of houses built before 1940 in % (as of 2015) per planning area,B_1940,%,BuildingB1940
+23,Share of houses built between 1941 and 1991 in % (as of 2015) per planning area,B_1941_199,%,Building1940to1991
+24,Share of houses built between 1991 and 2001 in % (as of 2015) per planning area,B_1991_201,%,Building1991to2001
+25,Vegetation volume in m3/m2 per planning area,vgpm20,m3/m2,GreenSpaces
+26,Amount of other types of schools per planning area,other_sch,unit,OtherSchool
+27,Amount of vocational schools per planning area,vocat_sch,unit,VocationalSchool
+28,Amount of primary schools per planning area,primary_sc,unit,PrimarySchool
+29,Amount of Gymnasiums per planning area,Gymnasium,unit,Gymnasium
+30,Amount of other secondary schools per planning area,secon_sch,unit,SecondarySchool
+31,Amount of private schools per planning area,priv_schoo,unit,PrivateSchool
+32,Amount of schools for children with special needs per planning area,sp_nee_sch,unit,SpecialNeedSchool
+33,Amount of kindergartens per planning area,kita,unit,Kindergarden
+34,Amount of rail / U-bahn / S-bahn and tram stations per planning area,stations,unit,PublicStation
+35,Population with EU15-origin in % per planning area,HK_EU15,%,EU15Origin
+36,Population with EU28-origin in % per planning area,HK_EU28,%,EU28Origin
+37,Population with Poland-origin in % per planning area,HK_Polen,%,PolandOrigin
+38,Population with Ex-Yugoslavia-origin in % per planning area,HK_EheJug,%,ExYugoslaviaOrigin
+39,Population with Post-Soviet states-origin in % per planning area,HK_EheSU,%,Ex-UdssrOrigin
+40,Population with Turkey origin in % per planning area,HK_Turk,%,TurkeyOrigin
+41,Population with Arab-origin in % per planning area,HK_Arab,%,ArabOrigin
+42,Population with Other-origin in % per planning area,HK_Sonst,%,OtherOrigin
+43,Population with not identified origin in % per planning area,HK_NZOrd,%,NotIdentifiedOrigin
