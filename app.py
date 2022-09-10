@@ -34,7 +34,7 @@ st.write("Which social or infrastructural features does child poverty correlate 
 st.write("")
 #st.write("")
 
-image = Image.open('wc2.png')
+image = Image.open('wc.png')
 
 st.image(image, caption='Fig.1: Features Correlation to Child poverty, data from Berlin Open Data platform shown in violet, OpenStreetMaps in orange, respectively')
 
