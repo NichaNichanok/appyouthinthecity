@@ -19,9 +19,9 @@ st.markdown("More than one out of four children lives under poverty in Berlin. T
 st.write("")
 
 col1, col2, col3 = st.columns(3)
-col1.metric("Berlin", "26.88%", "-1.20%")
-col2.metric("Pankow", "0.66%", "0.02%")
-col3.metric("Neukölln", "74.68%", "-1.63%")
+col1.metric("Berlin", "26.88%", "-1.20%",delta_color="inverse")
+col2.metric("Alter Schlachthof (Pankow)", "0.66%", "0.02%",delta_color="inverse")
+col3.metric("Schulenburgpark (Neukölln)", "74.68%", "-1.63%",delta_color="inverse")
 
 st.write("")
 
@@ -137,10 +137,10 @@ st.write("")
 fig = px.choropleth_mapbox(df_final, geojson=geojson_file, color="Clusters",
                            locations="PLR_ID",
                            center={"lat": 52.52, "lon": 13.40},
-                           color_discrete_map={'High social index, low migration rate':'orchid',
-                                               'somewhat low social index, average migration rate':'violet',
-                                               'average social index, average migration rate':'turquoise',
-                                               'very low social index, very high migration rate': 'gold'},
+                           color_discrete_map={'High social status, low migration rate':'orchid',
+                                               'Average/low social status, average/high migration rate':'violet',
+                                               'Average social status, average migration rate':'turquoise',
+                                               'Very low social status, very high migration rate': 'gold'},
                            mapbox_style="open-street-map",
                            zoom=9,
                            hover_name='PLR_NAME',
