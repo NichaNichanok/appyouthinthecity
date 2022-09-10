@@ -34,7 +34,7 @@ st.write("Which social or infrastructural features does child poverty correlate 
 st.write("")
 #st.write("")
 
-image = Image.open('wc.png')
+image = Image.open('wc2.png')
 
 st.image(image, caption='Fig.1: Features Correlation to Child poverty, data from Berlin Open Data platform shown in violet, OpenStreetMaps in orange, respectively')
 
@@ -54,10 +54,10 @@ def get_fullname(column_name, df):
 #st.subheader("Here, you can plot a selection of features we processed and collected.", anchor=None)
 
 option = st.selectbox('Here, you can plot a selection of features we processed and collected.',
-     ('Population with migration background in % per planning area',
+     ('Child poverty in % per planning area',
  'Unemployment in % per planning area',
  'Welfare beneficiaries in % per planning area',
- 'Child poverty in % per planning area',
+ 'Population with migration background in % per planning area',
  'Dynamic of unemployment in % (2018 to 2020) per planning area',
  'Dynamic of welfare in % (2018 to 2020) per planning area',
  'Dynamic of child poverty in % (2018 to 2020) per planning area',
@@ -89,9 +89,9 @@ option = st.selectbox('Here, you can plot a selection of features we processed a
  'Amount of schools for children with special needs per planning area',
  'Amount of kindergartens per planning area',
  'Amount of rail / U-bahn / S-bahn and tram stations per planning area',
- 'Population with EU15-origin in %', 'Population with EU28-origin in % per planning area',
- 'Population with Poland-origin in %', 'Population with Ex-Yugoslavia-origin in % per planning area',
- 'Population with Post-Soviet states-origin in %', 'Population with Turkey origin in % per planning area',
+ 'Population with EU15-origin in % per planning area', 'Population with EU28-origin in % per planning area',
+ 'Population with Poland-origin in % per planning area', 'Population with Ex-Yugoslavia-origin in % per planning area',
+ 'Population with Post-Soviet states-origin in % per planning area', 'Population with Turkey origin in % per planning area',
  'Population with Arab-origin in % per planning area', 'Population with Other-origin in % per planning area',
  'Population with not identified origin in % per planning area'))
 
